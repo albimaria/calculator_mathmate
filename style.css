@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fdfffc;
+    text-align: center;
+    background-image: url('background_image.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1 {
+    font-size: 75px;
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+}
+input {
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: beige;
+    color: black;
+    border-style: none;
+}
+.btn:hover {
+    background-color: rgb(246, 210, 230);
+    cursor: pointer;
+}
